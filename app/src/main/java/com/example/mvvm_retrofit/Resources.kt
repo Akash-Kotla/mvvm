@@ -1,0 +1,11 @@
+package com.example.mvvm_retrofit
+
+sealed  class Resources <T>(
+
+    val data: T? = null,
+    val message:String? = null
+
+){
+        class Success<T>() : Resources<T>(data)
+        class Error<T>(message:String, data: T? = null): Resources<T>(data, message)
+}

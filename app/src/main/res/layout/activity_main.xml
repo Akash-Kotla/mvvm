@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1b1b1c"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:title="Activate Package"
+        android:titleTextColor="@color/white"
+        android:titleMarginStart="40dp"
+        android:logo="@drawable/ic_baseline_arrow_back_24"/>
+
+
+
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+
+    <EditText
+        android:textColor="@color/black"
+        android:id="@+id/phoneoremail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hinttext"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edittext"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="20dp"
+        android:inputType="text"
+        android:paddingLeft="10dp"/>
+
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="-15dp"
+        android:background="@drawable/edittext"
+        android:src="@drawable/ic_baseline_search_24"/>
+
+</LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Activate Package"
+        android:textSize="12dp"
+        android:textAllCaps="false"/>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="@drawable/box"
+       android:layout_marginStart="15dp"
+       android:layout_marginEnd="15dp"
+       android:layout_marginBottom="20dp"
+       android:orientation="vertical"
+       android:layout_marginTop="20dp">
+
+
+       <TextView
+           android:id="@+id/userdetails"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="User Details"
+           android:textColor="@color/white"
+           android:layout_marginTop="10dp"
+           android:textSize="20sp"
+           android:textAlignment="center"/>
+
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Name :"
+           android:textColor="@color/white"
+           android:textSize="15sp"
+           android:layout_marginTop="30dp"
+           android:layout_marginStart="15dp"/>
+
+           <TextView
+               android:id="@+id/name"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="name"
+               android:textColor="@color/white"
+               android:textSize="15sp"
+               android:layout_marginTop="30dp"
+               android:layout_marginStart="15dp"/>
+
+       </LinearLayout>
+
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Email :"
+               android:textColor="@color/white"
+               android:textSize="15sp"
+               android:layout_marginTop="30dp"
+               android:layout_marginStart="15dp"/>
+
+           <TextView
+               android:id="@+id/email"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="email"
+               android:textColor="@color/white"
+               android:textSize="15sp"
+               android:layout_marginTop="30dp"
+               android:layout_marginStart="15dp"/>
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Email :"
+               android:textColor="@color/white"
+               android:textSize="15sp"
+               android:layout_marginTop="30dp"
+               android:layout_marginStart="15dp"/>
+
+           <TextView
+               android:id="@+id/course_level"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="email"
+               android:textColor="@color/white"
+               android:textSize="15sp"
+               android:layout_marginTop="30dp"
+               android:layout_marginStart="15dp"/>
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Total Credits :"
+               android:textColor="@color/white"
+               android:textSize="15sp"
+               android:layout_marginTop="30dp"
+               android:layout_marginStart="15dp"/>
+
+           <TextView
+               android:id="@+id/total_credits"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="totalcredits"
+               android:textColor="@color/white"
+               android:textSize="15sp"
+               android:layout_marginTop="30dp"
+               android:layout_marginStart="15dp"/>
+
+       </LinearLayout>
+
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Credits :"
+               android:textColor="@color/white"
+               android:textSize="15sp"
+               android:layout_marginTop="30dp"
+               android:layout_marginStart="15dp"/>
+
+           <TextView
+               android:id="@+id/credits"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="credits"
+               android:textColor="@color/white"
+               android:textSize="15sp"
+               android:layout_marginTop="30dp"
+               android:layout_marginStart="15dp"/>
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Used :"
+               android:textColor="@color/white"
+               android:textSize="15sp"
+               android:layout_marginTop="30dp"
+               android:layout_marginStart="15dp"/>
+
+           <TextView
+               android:id="@+id/used"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="used"
+               android:textColor="@color/white"
+               android:textSize="15sp"
+               android:layout_marginTop="30dp"
+               android:layout_marginStart="15dp"/>
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Star Date :"
+               android:textColor="@color/white"
+               android:textSize="15sp"
+               android:layout_marginTop="30dp"
+               android:layout_marginStart="15dp"/>
+
+           <TextView
+               android:id="@+id/start_date"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="email"
+               android:textColor="@color/white"
+               android:textSize="15sp"
+               android:layout_marginTop="30dp"
+               android:layout_marginStart="15dp"/>
+
+       </LinearLayout>
+
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="start :"
+               android:textColor="@color/white"
+               android:textSize="15sp"
+               android:layout_marginTop="30dp"
+               android:layout_marginStart="15dp"/>
+
+           <TextView
+               android:id="@+id/expiry_date"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="expiry"
+               android:textColor="@color/white"
+               android:textSize="15sp"
+               android:layout_marginTop="30dp"
+               android:layout_marginStart="15dp"/>
+
+       </LinearLayout>
+   </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

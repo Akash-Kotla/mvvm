@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">mvvm_retrofit</string>
+    <string name="hinttext">Search for phone or Email</string>
+</resources>
